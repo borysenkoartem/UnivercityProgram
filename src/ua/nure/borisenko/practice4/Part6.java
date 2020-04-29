@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 public class Part6 {
     private static final String LATN = "[A-Za-z]+";
-    private static final String CYRL = "[ï¿½-ï¿½ï¿½-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]+";
+    private static final String CYRL = "[À-ßà-ÿ¸¨¡¢¯¿²³ªº¥´]+";
     private static final String PATH = "src/ua/nure/borisenko/practice4/";
 
     public static void main(String[] args) {
